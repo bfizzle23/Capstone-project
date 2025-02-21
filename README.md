@@ -20,11 +20,11 @@ restaurant/book Allow authenticated users to post new book, please use the same 
 
 User could obtain all the books that has the same book name with the current username
 
-Fields needed to post:
-name: str, the same as username
-no_of_guests: int
-date: date, in the form of "YYYY-MM-DD 00:00:00"
-comment: (opt.) text
+> Fields needed to post:
+> name: str, the same as username
+> no_of_guests: int
+> date: date, in the form of "YYYY-MM-DD 00:00:00"
+> comment: (opt.) text
 
 restaurant/book/<int:pk> Only admin user could view or delete single book
 
